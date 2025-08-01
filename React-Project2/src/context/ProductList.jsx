@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import { ProductsContext } from "./Products"
+import "./ProductList.css"
 
 const ProductList = () => {
     const {products} = useContext(ProductsContext);
