@@ -1,14 +1,14 @@
-// import Products from "./context/Products"
+import Products from "./components/Products"
 
-import FetchProducts from "./context/FetchProducts"
+// import FetchProducts from "./components/FetchProducts"
 
 
 function App() {
 
   return (
     <>
-    {/* <Products/> */}
-    <FetchProducts/>
+    <Products/>
+    {/* <FetchProducts/> */}
     </>
   )
 }
